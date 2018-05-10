@@ -24,7 +24,7 @@ $ docker build -t php_standalone .
 3. デーモンで、ホスト80とコンテナ80をつなげて、ホストのappディレクトリとコンテナの/var/www/htmlをつなげる
 
 ```
-docker run -d -p 80:80 -v (pwd)/app:/var/www/html php_standalone
+$ docker run -d -p 80:80 -v (pwd)/app:/var/www/html php_standalone
 ```
 
 4. アクセス
